@@ -1,0 +1,74 @@
+{
+  "taskType": "ACTIVATE",
+  "timestamp": 1765850372419,
+  "timeout": 1000,
+  "resource": [
+  ],
+  "config": {
+    "app": {
+      "signature": "3082020D30820176A003020102020450191043300D06092A864886F70D0101050500304A310F300D060355040713064272617A696C3111300F060355040A0C08393954C3A17869733111300F060355040B0C08393954C3A17869733111300F06035504030C08393954C3A17869733020170D3132303830313131313732335A180F32303530303732333131313732335A304A310F300D060355040713064272617A696C3111300F060355040A0C08393954C3A17869733111300F060355040B0C08393954C3A17869733111300F06035504030C08393954C3A178697330819F300D06092A864886F70D010101050003818D0030818902818100D02E33A036EE90EFF20A36F8CE0452E43661E499FF737C4D5BE23F02E375B9AA8215A9AABA536BB8055FDB3065B6DB5BB9F1485E79175A815C6C116460197A60AF23E221F345B95DCEF9D39E5E2CE96B7B4E0B891381B771CA3234C75C059559E9CFDF114110FB012BB47DC52EFF600BA19FDF265E9E6965D54CACAE05B18B310203010001300D06092A864886F70D0101050500038181009D478B3AAA06FC6C5244383FA21D70AE8021C850830354F37352AFF9C768F064124B6D79E29252BA045F6BC46E31380918A369EF6839BA0B528CBF20B59EF8B08D43BB2A72041A1AACA6F206373E64B21D0A3CAE1622B9AEF12AB3158546150B549EC50B2140364E5035177DF18DD701AD89B9F93267A32AEACA98D2B624674D",
+      "afVersion": "6.16.2",
+      "devKey": "H2yBp2yFwcnUHCwQdPEWc7",
+      "thirdPartyAnalyticsPlatform": "af",
+      "platform": 0,
+      "package": "com.braingames.tangramninja",
+      "version_name": "1.0.0",
+      "version_code": 1306560803,
+      "delay_close_app": 30000,
+      "account_params": {
+        "channel": "TEC-DO-MQ",
+        "country": "BR",
+        "url": "gate4.ipweb.cc:7778",
+        "account_type": ""
+      },
+      "file_path": "http://10.49.200.129:9000/hwsg-at11-obs-prod01/cpi_app_file/gp/com.taxis99/6.56.8/com.taxis99.xapk?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=NLJhTjL7FWzGoYPfoy2i%2F20251216%2Fcn-north-1%2Fs3%2Faws4_request&X-Amz-Date=20251216T015925Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=527e9d4f343280d822a8dfca64c5111ff5d83b53b8cc93a5403e549c60f1acf9",
+      "app_name": "99",
+      "track_link": "http://click.howdoesin.net/aff_c?offer_id=176775701&affiliate_id=16750&gaid={gaid}" 
+    },
+    "offer_channel": "TEC-DO-MQ"
+  },
+  "service": {
+    "manager": {
+      "envProfilesName": "hw_sinapore_jw_new",
+      "url": "119.8.169.219",
+      "extJson": "{\"sync_huawei\": \"http: //45.202.216.2:3061/sync/app-from-huawei\", \"proxy_req_url\": \"http://${serverIp}:9999/infrastructure-biz/session/generic\", \"clash_rule_url\": \"http://${serverIp}:9999/infrastructure-biz/clash/rules\", \"version_report\": \"http://${serverIp}:9999/infrastructure-biz/google/version-report\", \"decode-data-report\": \"http://${serverIp}:9999/infrastructure-base/data-report/decode-data-report\", \"appData_listKey_url\": \"http://45.202.216.2:3061/object-store/list-keys\", \"appData_download_url\": \"http://45.202.216.2:3061/object-store/download-url\"}"
+    },
+    "extServerUrl": {
+      "planreportdata": {
+        "eventEnum": "planreportdata",
+        "eventService": "http://119.8.169.219:9999/offer/planreportdata",
+        "eventParam": {}
+      }
+    },
+    "upload": {
+      "url": "http://119.8.169.219:3061/object-store/upload-file",
+      "type": "obs",
+      "key": "appData/android/2025-12-16/538/com.taxis99/f928e978-8fbb-4e9c-9016-97bd9f0989bc.tar.gz",
+      "newUrl": ""
+    }
+  },
+  "country": "BR",
+  "isGoogleLogin": false,
+  "isProtocol": false,
+  "execTarget": true,
+  "id": "1895478508237165198",
+  "offer_id": "538",
+  "device_id": "f928e978-8fbb-4e9c-9016-97bd9f0989bc",
+  "target": ["open_app"],
+  "retention_day": 0,
+  "retain_timeout": 180,
+  "retain_file_size_limit": 0,
+  "proxy_type": "clash-ipweb",
+  "proxy_config": {
+    "id": "",
+    "user": "B_54644_BR___60_256F35B1",
+    "password": "bjat11",
+    "proxy_store_server_url": "gate4.ipweb.cc:7778"
+  },
+  "log_report": {
+    "manager": { "url": "xxxxxx" },
+    "platform": "hw_cloud",
+    "planId": "1895478508237165198"
+  },
+  "target_value": 0.0
+}
